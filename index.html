@@ -1,12 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="output/output.css">
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+    <style>
+        /* .font-bebas{
+            font-family: 'Bebas Neue', sans-serif;
+        }
+        .font-roboto{
+            font-family: 'Roboto', sans-serif;
+        } */
+    </style>
     <title>Penguin Fashion</title>
 </head>
+
 <body>
-    <h1>Shakur</h1>
+    <header class="bg-[#FFFBF0] ">
+        <!-- Nav Bar -->
+        <nav class="max-w-7xl mx-auto py-10">
+            <div class="flex items-center justify-between ">
+                <div class="flex items-center gap-1 font-bold">
+                    <img src="icons/logoIcon.svg" alt="">
+                    <h1 class="text-2xl"><span class="text-[#A4BC46]">Penguin</span> Fashion</h1>
+                </div>
+
+                <ul class="flex items-center gap-14 text-[#3C3C3C] text-base font-medium">
+                    <li>Home</li>
+                    <li>Product</li>
+                    <li>About us</li>
+                    <li>Contact us</li>
+                </ul>
+            </div>
+        </nav>
+        <div class="flex justify-between items-center  max-w-7xl mx-auto">
+            <div>
+                <h1 class="text-7xl text-[#FABE4C] uppercase ">Be the Penguins <br><span class="text-[#363958]">of Winter</span></h1>
+                <p>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                </p>
+                <button class="btn-primary">Buy Now</button>
+            </div>
+            <div>
+                <img src="images/model.png" alt="">
+            </div>
+        </div>
+    </header>
+    <main class="max-w-7xl m-auto ">
+        <!-- Women jacket -->
+        <div class="mt-20 border-2 border-red-600">
+            <div>
+                <div>
+                    <h1 class="uppercase text-[#363958] font-bebas text-5xl">Women Jacket</h1>
+                </div>
+            </div>
+            <!-- Women Jacket Main Div -->
+            <div class="grid grid-cols-3  gap-16 my-10">
+                <!-- Jacket 1 -->
+                <div class="flex flex-col gap-5 px-5 py-5">
+                    <div class="bg-[#F1F1F1] rounded-2xl">
+                        <img src="images/jacket-1.png" alt="">
+                    </div>
+                    <div>
+                        <h1 class="text-2xl text-[#363958] font-bold font-roboto">Yellow Coat Jacket </h1>
+                        <p class="text-base text-[#3E3E3E] font-normal">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    </div>
+                    <div class="flex justify-between items-center">
+                        <h2 class="p-price">$234</h2>
+                        <button class="btn-primary">Buy Now</button>
+                    </div>
+                </div>
+                <!-- Jacket 2 -->
+                <div class="flex flex-col gap-5 px-5 py-5">
+                    <div class="bg-[#F1F1F1] rounded-2xl">
+                        <img src="images/jacket-2.png" alt="">
+                    </div>
+                    <div>
+                        <h1 class="text-2xl text-[#363958] font-bold font-roboto">Yellow Coat Jacket </h1>
+                        <p class="text-base text-[#3E3E3E] font-normal">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    </div>
+                    <div class="flex justify-between items-center">
+                        <h2 class="p-price">$234</h2>
+                        <button class="btn-primary">Buy Now</button>
+                    </div>
+                </div>
+                <!-- Jacket 3 -->
+                <div class="flex flex-col gap-5 px-5 py-5">
+                    <div class="bg-[#F1F1F1] rounded-2xl">
+                        <img src="images/jacket-3.png" alt="">
+                    </div>
+                    <div>
+                        <h1 class="text-2xl text-[#363958] font-bold font-roboto">Yellow Coat Jacket </h1>
+                        <p class="text-base text-[#3E3E3E] font-normal">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    </div>
+                    <div class="flex justify-between items-center">
+                        <h2 class="p-price">$234</h2>
+                        <button class="btn-primary">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        
+    </main>
+    <footer>
+
+    </footer>
 </body>
+
 </html>

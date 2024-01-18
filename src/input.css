@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* group utilities/component */
+.btn-primary{
+    @apply rounded-xl bg-red-500 px-9 py-4 text-white bg-gradient-to-r from-[#A4BC46] to-[#85A019] flex
+}
+.p-price{
+    @apply text-[#FABE4C] text-4xl font-bold
+}
